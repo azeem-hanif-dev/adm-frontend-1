@@ -1,0 +1,7 @@
+{
+  "name": "NeoSend whitee",
+  "description": "A professional, enterprise-grade AI marketing campaign automation system with lead management, poster-to-email conversion via Gemini Vision, and spam-safe delivery simulation.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
