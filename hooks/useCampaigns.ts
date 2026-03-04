@@ -5,7 +5,6 @@ import { useEffect, useState } from "react";
 export const mapCampaignDTOToCampaign = (dto: CampaignDTO): Campaign => ({
   id: dto.campaign_id,
   name: dto.campaign_name,
-  // Backend not sending yet → defaults
   goal: dto.subject ?? "",
   ccMail: undefined,
   tone: "Professional",
